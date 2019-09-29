@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.javierbarahona.controller.PersonaController">
+   <children>
+      <Label fx:id="lblNombre" layoutX="66.0" layoutY="74.0" prefHeight="27.0" prefWidth="65.0" text="Nombres:">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblApellido" layoutX="66.0" layoutY="113.0" prefHeight="27.0" prefWidth="65.0" text="Apellidos:">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="lblTelefono" layoutX="67.0" layoutY="154.0" prefHeight="27.0" prefWidth="65.0" text="Teléfono:">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect>
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TableView fx:id="tblDatos" layoutX="23.0" layoutY="202.0" prefHeight="200.0" prefWidth="532.0">
+        <columns>
+            <TableColumn fx:id="colCodigoPersona" prefWidth="136.0" text="Código Persona" />
+          <TableColumn fx:id="colNombre" prefWidth="127.0" text="Nombres" />
+          <TableColumn fx:id="colApellido" prefWidth="132.0" text="Apellidos" />
+            <TableColumn fx:id="colTelefono" prefWidth="136.0" text="Teléfono" />
+        </columns>
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect>
+      </TableView>
+      <TextField fx:id="txtNombre" layoutX="143.0" layoutY="73.0">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect></TextField>
+      <TextField fx:id="txtApellido" layoutX="143.0" layoutY="113.0">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect></TextField>
+      <TextField fx:id="txtTelefono" layoutX="143.0" layoutY="154.0">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect></TextField>
+      <Button fx:id="btnAgregar" layoutX="530.0" layoutY="410.0" mnemonicParsing="false" onAction="#guardar" text="Agregar">
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect></Button>
+      <Label layoutX="244.0" layoutY="14.0" prefHeight="53.0" prefWidth="158.0" text="Personas">
+         <font>
+            <Font size="36.0" />
+         </font>
+         <effect>
+            <DropShadow color="#00ddff" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
