@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="956.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="107.0" layoutY="413.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="241.0" layoutY="413.0" mnemonicParsing="false" text="Button" />
+      <CheckBox layoutX="126.0" layoutY="129.0" mnemonicParsing="false" text="CheckBox" />
+      <CheckBox disable="true" layoutX="274.0" layoutY="115.0" mnemonicParsing="false" text="CheckBox">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </CheckBox>
+      <Label layoutX="122.0" layoutY="34.0" prefHeight="21.0" prefWidth="155.0" text="Laskdjasldkabel" />
+      <MenuBar layoutX="611.0" layoutY="-2.0" prefHeight="32.0" prefWidth="345.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+                  <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TableView layoutX="80.0" layoutY="207.0" prefHeight="200.0" prefWidth="796.0">
+        <columns>
+          <TableColumn prefWidth="175.0" text="asd" />
+          <TableColumn prefWidth="115.0" text="asda" />
+            <TableColumn prefWidth="140.0" text="asda" />
+            <TableColumn prefWidth="176.0" text="asd" />
+        </columns>
+      </TableView>
+      <ComboBox disable="true" layoutX="611.0" layoutY="100.0" prefHeight="31.0" prefWidth="229.0" />
+      <TextField editable="false" layoutX="344.0" layoutY="29.0" />
+   </children>
+</AnchorPane>
